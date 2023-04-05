@@ -29,7 +29,7 @@ RUN apt-get install -qy nano
 # Install proxy Dependencies
 RUN \
   apt-get update -q && \
-  apt-get install -qy apache2 php7 php7-common curl php7-curl libapache2-mod-php7 php-xml-parser php7-cli php7-mysql inotify-tools libapache2-mod-proxy-html && \
+  apt-get install -qy apache2 php php-common curl php-curl libapache2-mod-php php-xml-parser php-cli php-mysql inotify-tools libapache2-mod-proxy-html && \
   apt-get clean -y && \
   rm -rf /var/lib/apt/lists/*
  
