@@ -1,5 +1,5 @@
 FROM phusion/baseimage:latest
-LABEL maintainer="George_AU"
+LABEL maintainer="George_AU "
 
 # Set correct environment variables
 ENV DEBIAN_FRONTEND noninteractive
