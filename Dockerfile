@@ -23,7 +23,7 @@ CMD ["/sbin/my_init"]
 
 
 RUN apt-get update 
-RUN apt-get install -qy pico
+RUN apt-get install -qy nano
 
 
 # Install proxy Dependencies
