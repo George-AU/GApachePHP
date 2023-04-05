@@ -1,4 +1,4 @@
-FROM phusion/jammy-1.0.0
+FROM phusion/baseimage
 LABEL maintainer="George_AU "
 
 # Set correct environment variables
