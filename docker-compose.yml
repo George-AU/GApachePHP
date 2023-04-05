@@ -3,7 +3,8 @@
     www:
       image: php:8.1-apache-buster
       volumes:
-        - "./:/var/www/html"
+        - "./www:/var/www/html"
       ports:
         - 80:80
-        
+      environment:
+        - TZ=Australia/Perth
