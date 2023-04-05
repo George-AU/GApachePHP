@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.15
+FROM phusion/baseimage:1.0.1
 LABEL maintainer="George_AU "
 
 # Set correct environment variables
